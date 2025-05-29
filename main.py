@@ -36,7 +36,7 @@ defis = [
 st.title("Ta mission 🍻")
 
 # Bouton pour tirer un défi au hasard
-if st.button("Tirer ta mission"):
+if st.button("Tirer ta mission", type="primary", use_container_width=True):
     defi_choisi = random.choice(defis)
     st.success(defi_choisi)
     st.balloons()
