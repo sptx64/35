@@ -33,10 +33,10 @@ defis = [
 ]
 
 # Titre de l'application
-st.title("Défi de la Soirée 🎉")
+st.title("Ta mission 🍻")
 
 # Bouton pour tirer un défi au hasard
-if st.button("Tirer un défi"):
+if st.button("Tirer ta mission"):
     defi_choisi = random.choice(defis)
     st.success(defi_choisi)
     st.balloons()
