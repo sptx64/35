@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+import time
 
 # Liste des défis
 defis = [
@@ -38,7 +39,7 @@ defis = [
     "Tout le monde s'appelle Olivier. Insister.",
     "A chaque fois que tu rentres dans un nouveau bar, se tromper de porte/d'entrée et dire 'ah c'est par là la rentrée?'",
     "A chaque fois que tu termines ton verre, sors ta meilleure imitation du cri de Chewbacca",
-    
+    "Woooow ! Tu es le maitre du jeu, tu as 1 minute pour lire toutes les consignes"
 ]
 
 # Titre de l'application
@@ -49,3 +50,7 @@ if st.button("Tirer ta mission", type="primary", use_container_width=True):
     defi_choisi = random.choice(defis)
     st.success(defi_choisi)
     st.balloons()
+    if defi_choisi == "Woooow ! Tu es le maitre du jeu, tu as 1 minute pour lire toutes les consignes" :
+        defis
+        time.sleep(90)
+        st.rerun()
