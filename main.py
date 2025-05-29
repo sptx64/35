@@ -36,7 +36,7 @@ defis = [
     "*gling gling gling gling* Faire un toast dans chaque nouveau bar, sujet libre improvise",
     "A chaque fois que tu va t'asseoir, fais un pas de danse juste avant",
     "Tout le monde s'appelle Olivier. Insister.",
-    "A chaque fois que tu rentres dans un nouveau bar, se tromper de porte/d'entrée et dire 'ah c'est par là la rentrée?'"
+    "A chaque fois que tu rentres dans un nouveau bar, se tromper de porte/d'entrée et dire 'ah c'est par là la rentrée?'",
     "A chaque fois que tu termines ton verre, sors ta meilleure imitation du cri de Chewbacca",
     
 ]
